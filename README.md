@@ -3,7 +3,8 @@ You can use this script to retrieve information from the user's system or execut
 
 ## How use it ? 
 1- Create telegram bot on <i>@Bot_Father</i> and put your robot token on "bot_token" (line 18) <br>
-2- ```
+2- 
+```
 git clone https://github.com/AmiraliTanabian/Telegram_SelfBot.git && cd Telegram_SelfBot && cd v1 
 ```
 or you can download it from this page.
