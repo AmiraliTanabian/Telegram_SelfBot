@@ -15,10 +15,9 @@ import requests
 from random import randint
 import urllib
 
-proxy_url = 'http://130.162.180.254:8888'
-telebot.apihelper.proxy = {'http': proxy_url, 'https': proxy_url}
+bot_token = "YOUR_TOKEN"
 
-bot = telebot.TeleBot('7627687714:AAGL-z35kpl6PRkmGxcPfam9iS7p5_Xlll8')
+bot = telebot.TeleBot(bot_token)
 
 def Startup():
     a = 3 
