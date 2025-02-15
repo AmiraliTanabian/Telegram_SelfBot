@@ -7,7 +7,7 @@ You can use this script to retrieve information from the user's system or execut
 ```
 git clone https://github.com/AmiraliTanabian/Telegram_SelfBot.git && cd Telegram_SelfBot && cd v1 
 ```
-or you can download it from this page.
+or you can download it from this page.<br>
 3- run the script in target system  <br>
 4- use commands <br>
 
