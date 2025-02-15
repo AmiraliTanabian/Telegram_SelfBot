@@ -1,0 +1,7 @@
+telebot 
+PyAutoGUI
+keyboard
+pywinauto
+pycopy-shutil
+opencv-python
+pynput
