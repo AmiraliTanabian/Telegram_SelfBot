@@ -33,7 +33,7 @@ def Startup():
         currentPath = os.getcwd() + '\main.exe'
         
         shutil.copy(currentPath, startupPath)
-        sleep(2)
+        sleep(1)
         shutil.copy(os.getcwd()+ r'\run.bat', startupPath)
         
 Startup()
